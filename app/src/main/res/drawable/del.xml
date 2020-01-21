@@ -1,0 +1,55 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="-0dp"
+        android:drawable="@android:drawable/dialog_holo_light_frame"
+        android:left="-3dp"
+        android:right="-3dp"
+        android:top="-4dp">
+
+    </item>
+
+    <item
+        android:bottom="-6dp"
+        android:left="-6dp"
+        android:right="-6dp"
+        android:top="-6dp">
+
+        <shape android:shape="rectangle">
+            <gradient android:angle="0"  android:startColor="@color/md_yellow_500"
+                android:endColor="@color/md_yellow_250"/>
+            <corners android:radius="5dp"/>
+            <stroke android:color="@color/md_yellow_50"
+                android:width="2dp"/>
+
+        </shape>
+    </item>
+
+    <item
+        android:bottom="-6dp"
+        android:left="-6dp"
+        android:right="-6dp"
+        android:top="-6dp"
+        android:state_pressed="true">
+        <shape android:shape="rectangle"  >
+            <gradient android:angle="180"  android:startColor="@color/md_yellow_500"
+                android:endColor="@color/md_yellow_250"/>
+            <corners android:radius="5dp"/>
+            <stroke android:color="@color/md_yellow_50"
+                android:width="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="-6dp"
+        android:left="-6dp"
+        android:right="-6dp"
+        android:top="-6dp"
+        android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <gradient android:angle="0"  android:startColor="@color/md_yellow_500"
+                android:endColor="@color/md_yellow_250"/>
+            <corners android:radius="5dp"/>
+            <stroke android:color="@color/md_yellow_50"
+                android:width="2dp"/>
+        </shape>
+    </item>
+</layer-list>
